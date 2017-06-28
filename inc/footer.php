@@ -2,7 +2,7 @@
     </main>
 
     <hr>
-    <footer>
+    <footer class="Footer">
         <p>2017 - Eagle ID</p>
     </footer>
 

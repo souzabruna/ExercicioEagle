@@ -4,21 +4,29 @@
     <meta charset="utf-8">
     <title>CRUD - Eagle ID</title>
     <meta name="description" content="">
+    <link rel="stylesheet" type="text/css" href="<?php echo BASEURL; ?>index.css">
     </head>
 <body>
 
     <nav>
       <div>
-        <div>
-          <a href="<?php echo BASEURL; ?>index.php" >CRUD: <?php echo NOME_DO_CANDIDATO; ?></a>
+        <div class="Navbar">
+            <div>
+            <div class="DivLeft">
+                <a href="<?php echo BASEURL; ?>index.php" >CRUD: <?php echo NOME_DO_CANDIDATO; ?></a>
         </div>
+                </div>
         <div id="navbar">
+            <div class="DivRigth">
           <ul>          
-            <li>
+            <li style="list-style: none;">
                 <a href="#" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
                     Clientes <span></span>
                 </a>
-                <ul>
+             </div>
+            </div>
+            </div>
+                <ul style="display: none;">
                     <li><a href="<?php echo BASEURL; ?>customers">Gerenciar Clientes</a></li>
                     <li><a href="<?php echo BASEURL; ?>customers/add.php">Novo Cliente</a></li>
                 </ul>

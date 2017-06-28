@@ -1,0 +1,301 @@
+body{
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+@media screen and ( min-width: 900px){
+.Navbar {
+    background-color: #5ac7da;
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    flex-direction: row;
+}
+.Navbar a{
+    text-decoration: none;
+    color: rgba(0,0,0,1);
+    font-weight: bold;
+    font-family: 'Myriad' pro;
+}
+.DivLeft{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2em;
+}
+.DivRigth{
+    height: 100%;
+    width: 20vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+.Container{
+    height: 50vh;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+}
+.ContainerTable{
+    height: 70vh;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ContainerCreate{
+    width: 100vw;
+    height: 80vh;
+    background-color: rgba(255,255,255,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonPrimary{
+    width: 17vw;;
+    height: 80%;
+    background-color: #7f3f98;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonPrimary a{
+    text-decoration: none;
+    color: white;
+        font-weight: bold;
+}
+.ButtonSecondary{
+    width: 17vw;;
+    height: 80%;
+    background-color: white;
+    border: 2px solid #7f3f98;
+    
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ButtonSecondary a{
+    text-decoration: none;
+    color:#7f3f98;
+        font-weight: bold;
+}
+.btnContent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.Title{
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-bottom: 1px solid #939598;
+}
+.TitleAdd{
+    height: 15vh;
+    width: 90vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    border-bottom: 1px solid #939598;
+}
+.Footer{
+    border-top: 1px solid #939598;
+    width: 90vw;
+}
+.divButtons{
+    width: 50%;
+    height: 30vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.divBtn{
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    justify-content: flex-start;
+}
+.Wellcome{
+    width: 100%;
+    height: 25vh;
+    background-image: url("/layout/background.jpg");
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 2.5em;
+    opacity: 0.8;
+    text-shadow: 2px 2px 2px 2px black;
+}
+.ListHeader{
+    height: 10vh;
+    width: 90vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    border-bottom: 1px solid #939598;
+}
+.ListTitle{
+    height: 10vh;
+    width: 70vw;;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+     
+}
+.ButtonsHeader{
+    height: 10vh;
+    width: 20vw;;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+    
+.BtnSmallPrimary{
+    width: 120px;;
+    height: 50px;
+    background-color: #7f3f98;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    border: none;
+    color:white;
+}
+.BtnSmallPrimary a{
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+.BtnSmallScondary{
+    width: 120px;;
+    height: 50px;
+    background-color: white;
+    border: 2px solid #7f3f98;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.BtnSmallScondary a{
+    text-decoration: none;
+    color:#7f3f98;
+    font-weight: bold;
+}
+.Table{
+    height: 50vh;
+    width: 90vw;
+    align-self: center;
+}
+.TableHeader{
+    border-bottom: 2px solid red;
+}
+.ButtonView{
+    width: 90px;
+    height: 40px;
+    background-color: #57b95a;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2px;
+}
+.ButtonEdit{
+    width: 90px;
+    height: 40px;
+    background-color: #f0ad4c;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;, margin: 2px;
+    
+}
+.ButtonDelete{
+    width: 90px;
+    height: 40px;
+    background-color: #da534f;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+     margin: 2px;
+    
+}
+.Line{
+    display: flex;
+    flex-direction: row;
+}
+.Name{
+    width: 20vw!important;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Id{
+    width: 10vw;
+}
+.Form{
+    height: 60vh;
+}
+.DivLarge{
+    width: 80vw;
+    height: 12vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.InputLarge{
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+}
+.InputSmall{
+    width: 15%;
+     margin: 10px;
+}
+.Input{
+    border-radius: 7px;
+    margin-top: 5px;
+    height: 4vh;
+    border: 1px solid #939598;
+}
+.ButtonsDiv{
+    display: flex;
+    flex-direction: row;
+}
+.FooterForm{
+    height:10vh;
+    width:100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.Icon{
+    width: 55px;
+    height:55px;
+    border-radius: 100%;
+    background-color: #7f3f98;
+}
+}
